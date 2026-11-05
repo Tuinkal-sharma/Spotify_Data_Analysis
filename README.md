@@ -28,17 +28,17 @@ On average, predictions are off by about 16 popularity points. The four features
 ### H1: Artist popularity vs. track popularity
 Tracks by more popular artists tend to be more popular. The trend line slopes clearly upward, and the upper edge of the point cloud rises with artist popularity.
 
-![H1: Track popularity vs. artist popularity](images/h1_artist_popularity.png)
+![H1: Track popularity vs. artist popularity](h1_artist_popularity.png)
 
 ### H2: Track duration vs. popularity
 The smoothed curve rises, peaks at roughly 3.5 to 4 minutes, then declines slightly: an inverted U shape. A plain linear model cannot capture this.
 
-![H2: Track popularity vs. duration](images/h2_duration.png)
+![H2: Track popularity vs. duration](h2_duration.png)
 
 ### Popularity by album type
 Tracks released on full albums have the highest median popularity, singles come next, and compilations are lowest. The "Ferrari" and "NA" categories contain only a single value each, which points to data quality issues in `album_type`.
 
-![Track popularity by album type](images/album_type_boxplot.png)
+![Track popularity by album type](album_type_boxplot.png)
 
 ---
 
